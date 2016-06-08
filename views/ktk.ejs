@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+
+
+<h2 id="street1"></h2>
+
+</body>
+<script>
+    var a=<%- JSON.stringify(address) %>;
+    // alert(a.street);
+    document.getElementById("street1").innerHTML=a.street;
+
+</script>
+</html>
